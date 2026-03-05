@@ -5,7 +5,7 @@ import { setGatewayUrl, setGatewayToken, testConnection } from '../lib/api';
 import { theme } from '../lib/theme';
 
 export default function Setup() {
-  const [url, setUrl] = useState('https://ubuntu-4gb-hel1-4.tail2f6642.ts.net');
+  const [url, setUrl] = useState('http://100.124.120.45:18789');
   const [token, setToken] = useState('');
   const [testing, setTesting] = useState(false);
 

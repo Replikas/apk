@@ -18,11 +18,21 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#0a0a0a"
       },
-      "package": "com.rick.portal"
+      "package": "com.rick.portal",
+      "usesCleartextTraffic": true
     },
     "plugins": [
       "expo-router",
       "expo-secure-store"
-    ]
+    ],
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "a139a1c1-c320-4bc9-a6c3-6f88895cbb29"
+      }
+    },
+    "owner": "replikaz"
   }
 }
